@@ -1,0 +1,30 @@
+{
+  "topic": "AI product and engineering updates",
+  "instruction": "Summarize key changes, explain why they matter, and suggest one practical next action.",
+  "rss_urls": [
+    "https://openai.com/news/rss.xml",
+    "https://huggingface.co/blog/feed.xml"
+  ],
+  "keywords": [
+    "ai",
+    "model",
+    "llm",
+    "agent",
+    "release"
+  ],
+  "max_items": 8,
+  "language": "ja",
+  "output_dir": "automation/runs",
+  "request_timeout_seconds": 20,
+  "openai": {
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "gpt-4.1-mini",
+    "base_url": "https://api.openai.com/v1"
+  },
+  "x": {
+    "api_key_env": "X_API_KEY",
+    "api_secret_env": "X_API_SECRET",
+    "access_token_env": "X_ACCESS_TOKEN",
+    "access_token_secret_env": "X_ACCESS_TOKEN_SECRET"
+  }
+}
