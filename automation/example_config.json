@@ -14,7 +14,7 @@
   ],
   "max_items": 8,
   "language": "ja",
-  "output_dir": "automation/runs",
+  "output_dir": "runs",
   "request_timeout_seconds": 20,
   "openai": {
     "api_key_env": "OPENAI_API_KEY",
